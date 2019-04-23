@@ -1,0 +1,65 @@
+[debug] [2019-04-23T01:57:55.712Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T01:57:55.715Z] Command:       /home/ubuntu/.nvm/versions/node/v8.15.0/bin/node /home/ubuntu/.nvm/versions/node/v8.15.0/bin/firebase login
+[debug] [2019-04-23T01:57:55.715Z] CLI Version:   6.7.1
+[debug] [2019-04-23T01:57:55.715Z] Platform:      linux
+[debug] [2019-04-23T01:57:55.715Z] Node Version:  v8.15.0
+[debug] [2019-04-23T01:57:55.715Z] Time:          Tue Apr 23 2019 01:57:55 GMT+0000 (UTC)
+[debug] [2019-04-23T01:57:55.715Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=127196367&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-04-23T02:08:06.915Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T02:08:06.917Z] Command:       /home/ubuntu/.nvm/versions/node/v8.15.0/bin/node /home/ubuntu/.nvm/versions/node/v8.15.0/bin/firebase login
+[debug] [2019-04-23T02:08:06.917Z] CLI Version:   6.7.1
+[debug] [2019-04-23T02:08:06.917Z] Platform:      linux
+[debug] [2019-04-23T02:08:06.917Z] Node Version:  v8.15.0
+[debug] [2019-04-23T02:08:06.918Z] Time:          Tue Apr 23 2019 02:08:06 GMT+0000 (UTC)
+[debug] [2019-04-23T02:08:06.918Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=905731674&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-04-23T02:08:36.449Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T02:08:36.452Z] Command:       /home/ubuntu/.nvm/versions/node/v8.15.0/bin/node /home/ubuntu/.nvm/versions/node/v8.15.0/bin/firebase login
+[debug] [2019-04-23T02:08:36.452Z] CLI Version:   6.7.1
+[debug] [2019-04-23T02:08:36.452Z] Platform:      linux
+[debug] [2019-04-23T02:08:36.452Z] Node Version:  v8.15.0
+[debug] [2019-04-23T02:08:36.452Z] Time:          Tue Apr 23 2019 02:08:36 GMT+0000 (UTC)
+[debug] [2019-04-23T02:08:36.452Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1048606361&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-04-23T02:12:21.314Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T02:12:21.317Z] Command:       /home/ubuntu/.nvm/versions/node/v8.15.0/bin/node /home/ubuntu/.nvm/versions/node/v8.15.0/bin/firebase login
+[debug] [2019-04-23T02:12:21.317Z] CLI Version:   6.7.1
+[debug] [2019-04-23T02:12:21.317Z] Platform:      linux
+[debug] [2019-04-23T02:12:21.317Z] Node Version:  v8.15.0
+[debug] [2019-04-23T02:12:21.317Z] Time:          Tue Apr 23 2019 02:12:21 GMT+0000 (UTC)
+[debug] [2019-04-23T02:12:21.318Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=693154433&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-04-23T02:18:21.053Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T02:18:21.056Z] Command:       /home/ubuntu/.nvm/versions/node/v8.15.0/bin/node /home/ubuntu/.nvm/versions/node/v8.15.0/bin/firebase login
+[debug] [2019-04-23T02:18:21.056Z] CLI Version:   6.7.1
+[debug] [2019-04-23T02:18:21.056Z] Platform:      linux
+[debug] [2019-04-23T02:18:21.056Z] Node Version:  v8.15.0
+[debug] [2019-04-23T02:18:21.056Z] Time:          Tue Apr 23 2019 02:18:21 GMT+0000 (UTC)
+[debug] [2019-04-23T02:18:21.056Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=383792906&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
