@@ -12,7 +12,7 @@
       <!-- /.col-2 -->
       <div class="col-8">
         
-        <img class="logo" alt="logo" src="../images/logo2.fw.png" />
+        <img class="logo" alt="logo" src="./assets/logo2.fw.png" />
         
         <p class="topinfo">Moto Autoura<br>Email: <a href="#">moto@autoura.com</a><br>Tel: 01238 934123<br>Main site: 
         <a href="https://www.autoura.com/">www.autoura.com</a></p>
@@ -53,10 +53,10 @@
             <router-link class="nav-link" to="/attraction" v-if="user">Attractions</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/events" v-if="user">Events</router-link>
+            <router-link class="nav-link" to="/event" v-if="user">Events</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/tours" v-if="user">Tours</router-link>
+            <router-link class="nav-link" to="/tour" v-if="user">Tours</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link logout" href="#" @click="logOut" v-if="user">Log Out ({{user.email}})</a>
@@ -93,10 +93,10 @@
                   <router-link class="nav-link" to="/attraction" v-if="user">Attractions</router-link>
                 </li>
                 <li class="nav-item itm2">
-                  <router-link class="nav-link" to="/events" v-if="user">Events</router-link>
+                  <router-link class="nav-link" to="/event" v-if="user">Events</router-link>
                 </li>
                 <li class="nav-item itm2">
-                  <router-link class="nav-link" to="/tours" v-if="user">Tours</router-link>
+                  <router-link class="nav-link" to="/tour" v-if="user">Tours</router-link>
                 </li>
                 <li class="nav-item itm2">
                   <a class="nav-link logout" href="#" @click="logOut" v-if="user">Log Out ({{user.email}})</a>

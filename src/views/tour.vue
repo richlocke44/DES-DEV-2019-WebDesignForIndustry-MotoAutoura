@@ -10,7 +10,7 @@
       <div class="col-8 background bg-light">
         
         <div class="row row3">
-          <h1 class="col-12 title ">Places to eat</h1>
+          <h1 class="col-12 title ">Tours to go on</h1>
         </div>
         
         <div class="row row1">
@@ -34,10 +34,13 @@
            
           <div class="col-12">
             <div class="cdcontainer">
+                
                 <div class="col-12 list">
+                    
                   <div class="card text-left text-black bg-white cards" v-bind:key="index" v-for="(place, index) in places">
                     <h5 class="card-title">{{place.name}}</h5> 
-                    <img v-bind:src="place.picture.url" class="card-img-top" alt="Image coming soon...">
+                    <img v-bind:src="place.picture.url" class="card-img-top" alt="Place to eat image not available"/>
+                    
 
                     <div class="card-body">
                       <div class="row">
@@ -51,10 +54,8 @@
                           
                         <div class="col-3 buttons">
                           <h6></h6>
-                          <button type="button" class="btn btn-danger btn-lg book"
-                          v-on:click="booking"
-                          >Book<br><small>(Coming soon)</small></button><br>
-                         
+                          <button type="button" v-on:click="booking" class="btn btn-danger btn-lg book">Book<br><small>(Coming soon)</small></button><br>
+                          
                         </div>
                         
                       </div>
@@ -88,16 +89,16 @@ import pin from '../assets/MapPin.png';
 export default {
     name: 'food',
     props:{
-     
+      
     },
     data: function () {
         return{
-            APIkey: APIKEY,
+            key: APIKEY,
             places: Array,
-            zoom: 12,
+            zoom: 1,
             center: L.latLng(50.907348, -1.398983),
             currentCenter: L.latLng(50.907348, -1.398983),
-            currentZoom: 12,
+            currentZoom: 1,
             url:"https://tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=3b690822f0444ad89ea8219666c18db6",
             attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
             marker: L.latLng(50.907348, -1.398983),
@@ -110,26 +111,6 @@ export default {
     LTileLayer,
     LMarker,
     LIcon
-  },
-  
-    
-    mounted: function() {
-    const inst = axios.create({
-      headers: { Authorization: "Bearer " + this.APIkey }
-    });
-    inst
-      .get(
-        "https://api.autoura.com/api/stops/search?transport_mode=motorbike&stop_types=food"
-      )
-      .then(p => {
-        this.places = p.data.response;
-        console.log(p.data.response);
-      })
-      .catch(e => {
-        console.log(e);
-      });
-      
-      
   },
   methods: {
     latLng: function(lat, lng) {
@@ -144,9 +125,24 @@ export default {
     booking: function () {
       alert('Apologies but bookings are not available at this time, please visit their sites using the links in the descriptions. Thank you!');
     }
+  },
     
-  }
-
+    mounted: function() {
+    const inst = axios.create({
+      headers: { Authorization: "Bearer " + this.key }
+    });
+    inst
+      .get(
+        "https://api.autoura.com/api/stops/search?transport_mode=motorbike&stop_types=tour"
+      )
+      .then(p => {
+        this.places = p.data.response;
+        console.log(p.data.response);
+      })
+      .catch(e => {
+        console.log(e);
+      });
+  },
 };
 
 
@@ -159,8 +155,9 @@ export default {
     height:85vh;
     
 }
+
 .background{
-  height:1125px;
+  height:100%;
   background-color:dimgrey;
   border-radius:20px;
 }

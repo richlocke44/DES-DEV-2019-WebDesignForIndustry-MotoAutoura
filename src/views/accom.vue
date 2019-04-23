@@ -54,8 +54,8 @@
                           
                         <div class="col-3 buttons">
                           <h6></h6>
-                          <button type="button" class="btn btn-danger btn-lg book">Book<br><small>(Coming soon)</small></button><br>
-                          <button type="button" class="btn btn-success btn-lg visit">Visit Site >></button>
+                          <button type="button" v-on:click="booking" class="btn btn-danger btn-lg book">Book<br><small>(Coming soon)</small></button><br>
+                          
                         </div>
                         
                       </div>
@@ -121,6 +121,9 @@ export default {
     },
     zoomUpdate: function(zoom) {
       this.currentZoom = zoom;
+    },
+    booking: function () {
+      alert('Apologies but bookings are not available at this time, please visit their sites using the links in the descriptions. Thank you!');
     }
   },
     

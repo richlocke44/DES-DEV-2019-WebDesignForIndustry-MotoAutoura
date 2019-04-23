@@ -15,7 +15,7 @@
         <p class="intro2" v-if="!user">Please <router-link class="homelink" to="/sign-up" v-if="!user">Sign Up</router-link> 
         and <router-link class="homelink" to="/log-in" v-if="!user">Log In</router-link> 
         to be able to view the Moto Autoura information and locations.</p>
-        <p class="intro4" v-if="!user"><a href="javascript:;">Please note:</a> this app is specific to motorbike & scooter users only</p><br>
+        
         <br><p class="intro3">If you would like more information about Autoura then please <a class="atlink" href="https://www.autoura.com/">Click Here</a> 
         or use the link at the top right of the page.</p>
         

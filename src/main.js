@@ -12,6 +12,8 @@ import Food from './views/food';
 import Accom from './views/accom';
 import POI from './views/poi';
 import Attraction from './views/attraction';
+import Event from './views/event';
+import Tour from './views/tour';
 import { L } from 'vue2-leaflet';
 import 'leaflet/dist/leaflet.css';
 import AuthStore from'./stores/AuthStore';
@@ -35,6 +37,8 @@ const routes = [
     {path: '/accom', component: Accom},
     {path: '/poi', component: POI},
     {path: '/attraction', component: Attraction},
+    {path: '/event', component: Event},
+    {path: '/tour', component: Tour},
     ];
     
 const router = new Router({routes});
