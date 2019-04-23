@@ -22,7 +22,7 @@
         </div>
         </div>
         
-        <div class="row row1"> 
+        <div class="row row1 drow"> 
           <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Places to eat</h2>
@@ -34,51 +34,172 @@
               <router-link class="" to="/food" >View More</router-link></button>
               </div>
               </div>
-            <p></p>
+            <p>Lots of lovely places to grab a bite to eat!</p>
           </div>
         </div>
         <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Places to stay</h2>
-            <img class="homeimg" src="#" alt="PlaceToEat"/>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <p></p>
+            <img class="homeimg" src="../assets/Accommodation.jpg" alt="PlaceToStay"/>
+            <div class="row">
+              <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/accom" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Amazing rooms for a good nights rest!</p>
           </div>
         </div>
         </div>
-        <div class="row row2"> 
+        <div class="row row2 drow"> 
           <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Places of interest</h2>
-            <img class="homeimg" src="#" alt="PlaceToEat"/>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <p></p>
+            <img class="homeimg" src="../assets/homepoi.png" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/poi" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Some very interesting places and some great views!</p>
           </div>
         </div>
         <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Attractions to go to</h2>
-            <img class="homeimg" src="#" alt="PlaceToEat"/>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <p></p>
+            <img class="homeimg" src="../assets/Attraction.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/attraction" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Fun and exciting attractions!</p>
           </div>
         </div>
         </div>
-        <div class="row row3"> 
+        <div class="row row3 drow"> 
           <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Events to go to</h2>
-            <img class="homeimg" src="#" alt="PlaceToEat"/>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <p></p>
+            <img class="homeimg" src="../assets/homeevent.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/event" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Great events to take part in!</p>
           </div>
         </div>
         <div class="col-6">
             <div class="card homeitem">
             <h2 class="cardtitle">Tours to go on</h2>
-            <img class="homeimg" src="#" alt="PlaceToEat"/>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <p></p>
+            <img class="homeimg" src="../assets/hometour.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/tour" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Wonderful once in a lifetime tours!</p>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row row1 mrow"> 
+          <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Places to eat</h2>
+            <img class="homeimg" src="../assets/placetoeat.jpg" alt="PlaceToEat" style="width:100%;"/>
+            <div class="row">
+              <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/food" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Lots of lovely places to grab a bite to eat!</p>
+          </div>
+        </div>
+        <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Places to stay</h2>
+            <img class="homeimg" src="../assets/Accommodation.jpg" alt="PlaceToStay"/>
+            <div class="row">
+              <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/accom" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Amazing rooms for a good nights rest!</p>
+          </div>
+        </div>
+        </div>
+        <div class="row row2 mrow"> 
+          <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Places of interest</h2>
+            <img class="homeimg" src="../assets/homepoi.png" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/poi" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Some very interesting places and some great views!</p>
+          </div>
+        </div>
+        <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Attractions to go to</h2>
+            <img class="homeimg" src="../assets/Attraction.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/attraction" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Fun and exciting attractions!</p>
+          </div>
+        </div>
+        </div>
+        <div class="row row3 mrow"> 
+          <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Events to go to</h2>
+            <img class="homeimg" src="../assets/homeevent.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/event" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Great events to take part in!</p>
+          </div>
+        </div>
+        <div class="col-12">
+            <div class="card homeitem">
+            <h2 class="cardtitle">Tours to go on</h2>
+            <img class="homeimg" src="../assets/hometour.jpg" alt="PlaceToEat"/>
+            <div class="row">
+            <div class="div col-8"></div>
+              <div class="div col-4">
+            <button type="button" class="btn btn-outline-secondary viewmore justify-content-end" v-if="user">
+              <router-link class="" to="/tour" >View More</router-link></button>
+              </div>
+              </div>
+            <p>Wonderful once in a lifetime tours!</p>
           </div>
         </div>
         </div>
@@ -193,10 +314,21 @@ export default {
   }
   .homeimg{
     float:left;
+    width:100%;
   }
 .viewmore {
   width:auto;
   float:right;
 }
+  @media (min-width:992px){
+    .mrow{
+      display:none;
+    }
+  }
   
+  @media (max-width:991px){
+    .drow{
+      display:none;
+    }
+  }
 </style>
